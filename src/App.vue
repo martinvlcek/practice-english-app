@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <word-list />
     </v-main>
   </v-app>
 </template>
