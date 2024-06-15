@@ -1,13 +1,11 @@
 <template>
+  <suspense>
+
   <v-container>
-
-    <v-btn @click="toggleTheme">toggle theme</v-btn>
-
     <v-responsive
       class="align-centerfill-height mx-auto"
       max-width="900"
     >
-
       <v-card
         title="Word list"
         flat
@@ -31,17 +29,12 @@
       </v-card>
     </v-responsive>
   </v-container>
+</suspense>
+
 </template>
 
 <script setup>
   import { ref } from 'vue'
-  import { useTheme } from 'vuetify'
-
-  const theme = useTheme()
-
-  function toggleTheme () {
-    theme.global.name.value = theme.global.current.value.dark ? 'light' : 'dark'
-  }
 
   const search = ref('')
   const headers = ref([
