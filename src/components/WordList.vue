@@ -3,7 +3,7 @@
 
   <v-container>
     <v-responsive
-      class="align-centerfill-height mx-auto"
+      class="align-center fill-height mx-auto"
       max-width="900"
     >
       <v-card
@@ -222,7 +222,7 @@
       lesson: 2,
       course: 'INT 3'
     },
-    
+
 
     {
       enTranslate: 'put on ____',
@@ -322,7 +322,7 @@
       lesson: 3,
       course: 'INT 3'
     },
-    
+
 
     {
       enTranslate: 'look up (information)',
@@ -408,7 +408,7 @@
       lesson: 4,
       course: 'INT 3'
     },
-    
+
 
     {
       enTranslate: 'confused (about)',
@@ -487,7 +487,7 @@
       lesson: 5,
       course: 'INT 3'
     },
-    
+
 
     {
       enTranslate: '(a) bonnet',
@@ -580,8 +580,8 @@
       lesson: 6,
       course: 'INT 3'
     },
-    
-  
+
+
     {
       enTranslate: 'arrange',
       skTranslate: 'zorganizovat',
@@ -680,8 +680,8 @@
       lesson: 7,
       course: 'INT 3'
     },
-    
-    
+
+
     {
       enTranslate: 'faint',
       skTranslate: 'omdliet',
@@ -753,7 +753,7 @@
       course: 'INT 3'
     },
 
-      
+
     {
       enTranslate: '(a) hobo',
       skTranslate: 'bezdak / tulak',
@@ -838,18 +838,18 @@
       lesson: 9,
       course: 'INT 3'
     },
-    
 
-    
-    
 
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
 
 
     {
@@ -936,7 +936,7 @@
       lesson: 10,
       course: 'INT 3'
     },
-    
+
 
     {
       enTranslate: `on sb's behalf / on behalf of`,
@@ -980,7 +980,7 @@
       lesson: 11,
       course: 'INT 3'
     },
-    
+
 
     {
       enTranslate: '(a) laptop',
@@ -1052,6 +1052,6 @@
       lesson: 12,
       course: 'INT 3'
     },
-    
+
   ])
 </script>

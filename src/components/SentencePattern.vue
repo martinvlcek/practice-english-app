@@ -10,15 +10,15 @@
               <template v-slot:title>
                 <div v-html="item.title"></div>
               </template>
-    
+
               <template v-slot:subtitle>
                 <div v-html="item.subTitle"></div>
               </template>
-    
+
               <template v-slot:text>
                   <div v-html="item.text"></div>
               </template>
-    
+
               <template v-slot:actions>
                 <v-chip variant="tonal">
                     Lesson {{ item.lesson }}
@@ -30,7 +30,7 @@
       </v-responsive>
     </v-container>
   </template>
-    
+
   <script setup>
     const items = [
       {
@@ -41,7 +41,7 @@
           You should have done it. </br>
           I should have helped you yesterday. </br>
           She shouldn't have told her sister about it. </br></br>
-          
+
           <strong>B)</strong> </br>
           Do you think you should have ____ ed? <sup>3rd</sup> </br>
           Yes, I think I should have ____ ed. <sup>3rd</sup> </br>
@@ -51,7 +51,7 @@
         course: 'INT 3'
       },
       {
-        title: `have sth ____ ed <sup>3nd</sup> `,
+        title: `have sth ____ ed <sup>3rd</sup> `,
         subTitle: `nechat (si) nieco urobit`,
         text: `
           He has his hair cut. </br>
@@ -85,7 +85,7 @@
           Did you use to ____ ? </br>
           Yes, I use used to ____ . </br>
           No, I didn't use to ____ . </br></br>
-          
+
           Did you use to swim? </br>
           Yes, I used to swin. </br>
           No, I don't use to swin.
@@ -100,7 +100,7 @@
           I wish he would call me. </br>
           She wishes her mom would be healty. </br>
           They wish we wouldn't leave on friday. </br></br>
-          
+
           I wish I would ____ <sup>verb</sup>
         `,
         lesson: 12,
@@ -113,7 +113,7 @@
           I wish I had studied more when I was young. </br>
           She wishes she had known it last week. </br>
           They wish they didn't got married. </br></br>
-          
+
           I wish I had ____ ed. <sup>3rd</sup>
         `,
         lesson: 12,
@@ -127,32 +127,32 @@
           She wishes she knew how to cook. </br>
           We wish it didn't rain som often. </br>
           I wish I played tennis so well. </br></br>
-          
+
           I wish I ____ ed. <sup>2nd</sup>
         `,
         lesson: 12,
         course: 'INT 3'
       },
-      
-      
-      
-      
-      
+
+
+
+
+
     ]
   </script>
-  
+
   <style lang="scss">
     .v-card {
       height: 100%;
       display: flex;
       flex-direction: column;
     }
-  
+
     .v-card-title {
       white-space: normal;
       line-height: 1.2 !important;
     }
-  
+
     .v-card-text {
       // letter-spacing: 1em;
     }
