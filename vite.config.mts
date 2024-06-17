@@ -10,6 +10,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: process.env.NODE_ENV === 'production' ? '/practice-english-app/' : '/', // Adjust the base for GitHub Pages
   plugins: [
     Vue({
       template: { transformAssetUrls },
