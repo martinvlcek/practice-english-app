@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Practice english app</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found</title>
+  <script>
+      // Redirect to the index.html for handling routes via Vue Router
+      var redirectTo = location.pathname.replace('/practice-english-app/', '');
+      location.replace('/practice-english-app/' + redirectTo);
+  </script>
 </head>
-
 <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+<h1>Page Not Found</h1>
 </body>
-
 </html>
