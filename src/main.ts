@@ -22,7 +22,6 @@ import SentencePatterns from './components/SentencePatterns.vue'
 
 const routes = [
   { path: '/', component: SmallWord },
-  { path: '/small-word', component: SmallWord },
   { path: '/word-list', component: WordList },
   { path: '/sentence-patterns', component: SentencePatterns },
 ]
