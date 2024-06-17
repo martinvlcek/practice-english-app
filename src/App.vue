@@ -51,7 +51,7 @@
   }
 
   const group = ref(null)
-  const drawer = ref(false) 
+  const drawer = ref(false)
   const items = ref([
     {
       title: 'Foo',
