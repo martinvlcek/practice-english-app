@@ -18,11 +18,13 @@ import { createMemoryHistory, createRouter } from 'vue-router'
 
 import SmallWord from './components/SmallWord.vue'
 import WordList from './components/WordList.vue'
+import SentencePatterns from './components/SentencePatterns.vue'
 
 const routes = [
   { path: '/', component: SmallWord },
   { path: '/small-word', component: SmallWord },
   { path: '/word-list', component: WordList },
+  { path: '/sentence-patterns', component: SentencePatterns },
 ]
 
 const router = createRouter({

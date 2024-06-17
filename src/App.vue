@@ -9,8 +9,9 @@
 
           <v-toolbar-title>Menu</v-toolbar-title>
 
-          <RouterLink to="/small-word">Small Word</RouterLink>
-          <RouterLink to="/word-list">Word list</RouterLink>
+          <RouterLink class="mx-2" to="/small-word">Small Word</RouterLink>
+          <RouterLink class="mx-2" to="/word-list">Word list</RouterLink>
+          <RouterLink class="mx-2" to="/sentence-patterns">Sentence patterns</RouterLink>
 
           <v-spacer></v-spacer>
 

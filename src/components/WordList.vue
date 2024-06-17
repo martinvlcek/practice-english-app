@@ -390,21 +390,21 @@
     {
       enTranslate: 'put down',
       skTranslate: 'zhadzovat / ponizovat',
-      text: 'let, let',
+      text: '',
       lesson: 4,
       course: 'INT 3'
     },
     {
       enTranslate: 'turn down',
       skTranslate: 'stisit / zoslabit',
-      text: 'let, let',
+      text: '',
       lesson: 4,
       course: 'INT 3'
     },
     {
       enTranslate: 'calm down',
       skTranslate: 'upokojit sa / ukludnit sa',
-      text: 'let, let',
+      text: '',
       lesson: 4,
       course: 'INT 3'
     },
