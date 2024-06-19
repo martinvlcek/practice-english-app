@@ -1,7 +1,609 @@
 export const wordList = [
   {
-    enTranslate: ``,
-    skTranslate: '',
+    enTranslate: `improve sth`,
+    skTranslate: 'vylepsit',
+    text: '',
+    lesson: 1,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `add sth to sth`,
+    skTranslate: 'pridat',
+    text: '',
+    lesson: 1,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `join sth`,
+    skTranslate: 'pridat sa',
+    text: '',
+    lesson: 1,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `decide`,
+    skTranslate: 'rozhodnut',
+    text: '',
+    lesson: 1,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `follow`,
+    skTranslate: 'nasledovat',
+    text: '',
+    lesson: 1,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `solve`,
+    skTranslate: 'vyriesit',
+    text: '',
+    lesson: 1,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `rely (on)`,
+    skTranslate: 'spolahnut sa',
+    text: 'relies, relying, relied',
+    lesson: 1,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `compare (with)`,
+    skTranslate: 'porovnat',
+    text: '',
+    lesson: 1,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `discover`,
+    skTranslate: 'objavit',
+    text: '',
+    lesson: 1,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `agree (with)`,
+    skTranslate: 'suhlasit',
+    text: '',
+    lesson: 1,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `accept`,
+    skTranslate: 'prijat',
+    text: '',
+    lesson: 1,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `ignore`,
+    skTranslate: 'ignorovat',
+    text: '',
+    lesson: 1,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `criticize (sb for sth)`,
+    skTranslate: 'kritizovat',
+    text: '',
+    lesson: 1,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `get old`,
+    skTranslate: 'zostarnut',
+    text: '',
+    lesson: 2,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `get dark`,
+    skTranslate: 'stmievat sa, stmavnut',
+    text: '',
+    lesson: 2,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `get ready (for)`,
+    skTranslate: 'pripravit sa',
+    text: '',
+    lesson: 2,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `get better (at)`,
+    skTranslate: 'zlepsit sa',
+    text: '',
+    lesson: 2,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `get worse (at)`,
+    skTranslate: 'zhorsit sa',
+    text: '',
+    lesson: 2,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `get married (to) sb`,
+    skTranslate: 'zobrat sa',
+    text: '',
+    lesson: 2,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `get stuck (in)`,
+    skTranslate: 'zaseknut sa',
+    text: '',
+    lesson: 2,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `get drunk`,
+    skTranslate: 'opit sa',
+    text: '',
+    lesson: 2,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `get lost`,
+    skTranslate: 'stratit sa',
+    text: '',
+    lesson: 2,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `get tired`,
+    skTranslate: 'unavit sa',
+    text: '',
+    lesson: 2,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `get angry (about, sth, with sb)`,
+    skTranslate: 'nahnevat sa',
+    text: '',
+    lesson: 2,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `fall asleep`,
+    skTranslate: 'zaspat',
+    text: 'fell, fallen',
+    lesson: 2,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `fall in love (with)`,
+    skTranslate: 'zalubit sa',
+    text: '',
+    lesson: 2,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(a) cahsier`,
+    skTranslate: 'pokladnik',
+    text: '',
+    lesson: 3,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(an) exchange rate`,
+    skTranslate: 'vymenny kurz',
+    text: '',
+    lesson: 3,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `interest (is)`,
+    skTranslate: 'urok',
+    text: '',
+    lesson: 3,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(a) mortgage`,
+    skTranslate: 'hypoteka',
+    text: '',
+    lesson: 3,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(a) loan`,
+    skTranslate: 'uver, pozicka',
+    text: '',
+    lesson: 3,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(a) balance (in)`,
+    skTranslate: 'zostatok',
+    text: '',
+    lesson: 3,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `deposit (into)`,
+    skTranslate: 'vlozit',
+    text: 'deposited',
+    lesson: 3,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `withdraw (from)`,
+    skTranslate: 'vybrat',
+    text: 'withdrew, withdrawn',
+    lesson: 3,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `lend`,
+    skTranslate: 'pozicat (niekomu)',
+    text: 'lent, lent',
+    lesson: 3,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `borrow`,
+    skTranslate: 'pozicat si',
+    text: 'borrowed',
+    lesson: 3,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `bank charges`,
+    skTranslate: 'bankove poplatky',
+    text: '',
+    lesson: 3,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(a) piggy bank`,
+    skTranslate: 'prasiatko',
+    text: 'na sporenie, pokladnicka',
+    lesson: 3,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `do your best`,
+    skTranslate: 'rob svoje maximum',
+    text: '',
+    lesson: 4,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `do sport`,
+    skTranslate: 'sportovat',
+    text: '',
+    lesson: 4,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `do your hair`,
+    skTranslate: 'spravit si vlasy',
+    text: '',
+    lesson: 4,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `do homework`,
+    skTranslate: 'urobit domacu ulohu',
+    text: '',
+    lesson: 4,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `do sb a favour`,
+    skTranslate: 'urobit niekomu laskavost',
+    text: '',
+    lesson: 4,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `do business`,
+    skTranslate: 'obchodovat',
+    text: '',
+    lesson: 4,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `do well`,
+    skTranslate: 'darit sa dobre',
+    text: '',
+    lesson: 4,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `do a lot of damage`,
+    skTranslate: 'urobit vela skody',
+    text: '',
+    lesson: 4,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `do the paperwork`,
+    skTranslate: 'urobit papierovacky / administrativu',
+    text: '',
+    lesson: 4,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `make a decision`,
+    skTranslate: 'urobit rozhodnutie',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `make a mistake`,
+    skTranslate: 'urobit chybu',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `make a call`,
+    skTranslate: 'zavolat si',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `make an exception`,
+    skTranslate: 'urobit vynimku',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `make a fortune`,
+    skTranslate: 'zbohatnut',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `make a mess`,
+    skTranslate: 'urobit neporiadok',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `make sure`,
+    skTranslate: 'uistit sa',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(a) solution (to)`,
+    skTranslate: 'riesenie',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(a) reason (for)`,
+    skTranslate: 'dovod',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(a) decision`,
+    skTranslate: 'rozhodnutie',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(a) condition`,
+    skTranslate: 'podmienka',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(a) consequence (of)`,
+    skTranslate: 'dosledok, nasledok niecoho',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(an) opportunity`,
+    skTranslate: 'prilezitost',
+    text: 'opportunities',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(an) opition (on)`,
+    skTranslate: 'nazor',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(a) result (of)`,
+    skTranslate: 'vysledok',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `deal with`,
+    skTranslate: 'riesit, zaoberat sa niecim',
+    text: 'dealt with',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `circumstances`,
+    skTranslate: 'okolnosti',
+    text: '',
+    lesson: 5,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `interesting`,
+    skTranslate: 'zaujimavy',
+    text: '',
+    lesson: 6,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `interested (in)`,
+    skTranslate: 'zaujimajuci sa o',
+    text: '',
+    lesson: 6,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `annoying`,
+    skTranslate: 'otravny',
+    text: '',
+    lesson: 6,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `annoyted (with)`,
+    skTranslate: 'byt otraveny',
+    text: '',
+    lesson: 6,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `tiring`,
+    skTranslate: 'unavajuce / vycerpavajuce',
+    text: '',
+    lesson: 6,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `tired (of)(from)`,
+    skTranslate: 'unaveny',
+    text: 'of - men. aktivity, with - fyz. aktivity',
+    lesson: 6,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `amazing`,
+    skTranslate: 'uzasne',
+    text: '',
+    lesson: 6,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `amazed (by)`,
+    skTranslate: 'uzastnuty',
+    text: '',
+    lesson: 6,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `surprising`,
+    skTranslate: 'prekvapive',
+    text: '',
+    lesson: 6,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `surprised (ay)`,
+    skTranslate: 'prekvapeny',
+    text: '',
+    lesson: 6,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `boring`,
+    skTranslate: 'nudne',
+    text: '',
+    lesson: 6,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `bored (with)`,
+    skTranslate: 'znudeny',
+    text: '',
+    lesson: 6,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(a) branch (of)`,
+    skTranslate: 'pobocka',
+    text: '',
+    lesson: 7,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `goods (are)`,
+    skTranslate: 'tovar',
+    text: '',
+    lesson: 7,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(a) profit`,
+    skTranslate: 'zisk',
+    text: 'make, earn, generate, show...',
+    lesson: 7,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(a) supplier (of)`,
+    skTranslate: 'dodavatel',
+    text: '',
+    lesson: 7,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `(an) invoice (for)`,
+    skTranslate: 'faktura',
+    text: '',
+    lesson: 7,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `negotiate sth (with)`,
+    skTranslate: 'vyjednavat',
+    text: 'contract, deal, price, conditions, agreement...',
+    lesson: 7,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `advertise`,
+    skTranslate: 'propagovat',
+    text: '',
+    lesson: 7,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `produce sth`,
+    skTranslate: 'vyrabat (vo velkom)',
+    text: '',
+    lesson: 7,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `diccuss sth with sb`,
+    skTranslate: 'diskutovat',
+    text: 'plan, question, deal, subject, topic, price...',
+    lesson: 7,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `deliver sth to sb`,
+    skTranslate: 'dorucit',
+    text: '',
+    lesson: 7,
+    course: 'INT 2'
+  },
+  {
+    enTranslate: `go bankrupt`,
+    skTranslate: 'zbankrotovat',
     text: '',
     lesson: 7,
     course: 'INT 2'
